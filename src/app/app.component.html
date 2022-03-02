@@ -1,0 +1,22 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">MonProduit</a>
+ 
+    <span class="navbar-toggler-icon"></span>
+  
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+    <div class="navbar-nav">
+    
+      <a class="nav-item nav-link" ><i class="bi bi-box-arrow-in-right"></i>nous connaitre</a>
+      <a class="nav-item nav-link" ><i class="bi bi-box-arrow-in-right"></i>contact</a>
+      <a class="nav-item nav-link"  routerLink="seconnecter" *ngIf="!firebaseService.isLoggedIn" ><i class="bi bi-box-arrow-in-right"></i>SignIn</a>
+      <a class="nav-item nav-link"  routerLink="inscription" *ngIf="!firebaseService.isLoggedIn"><i class="bi bi-box-arrow-in-right"></i>SignUp</a>
+      
+
+    </div>
+  </div>
+</nav>
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,101 @@
+<div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar">
+        <div class="custom-menu">
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+    </button>
+</div>
+      <div class="img bg-wrap text-center py-4" style="background-image: url(/assets/images/image1.png);">
+        
+          <div class="user-logo">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <h3>admin/employeur</h3>
+
+          </div>
+      </div>
+<ul class="list-unstyled components mb-5">
+  <li class="active">
+    <a href="#"><span class="fa fa-home mr-3"></span> Home</a>
+  </li>
+  <li>
+      <a href="#"><span class="fa fa-download mr-3 notif"><small class="d-flex align-items-center justify-content-center">5</small></span> poduits</a>
+  </li>
+  <li>
+    <a href="#"><span class="fa fa-gift mr-3"></span> composant</a>
+  </li>
+
+  <li>
+    <a href="#"><span class="fa fa-cog mr-3"></span> Settings</a>
+  </li>
+  <li>
+<a href="#" (click)="logout()"><span class="fa fa-sign-out mr-3"></span>   Sign Out</a>
+  </li>
+</ul>
+
+</nav>
+
+
+
+   
+    <div class="container">
+        <div class="row justify-content-center">
+            <br><br><br>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-wrap">
+                    <table class="table">
+                      <thead class="thead-primary">
+                        <tr>
+                          <th>#</th>
+                          <th>Name</th>
+                          <th>nombre</th>
+                          
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>produit1</td>
+                          <td>10</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>produit2</td>
+                          <td>1</td>
+                         
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>produit3</td>
+                            <td>10</td>
+                           
+                          
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>produit4</td>
+                            <td>2</td>
+                           
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>produit5</td>
+                          <td>4</td>
+                         
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+ 
+
+
+</div>
+</div>
+<router-outlet></router-outlet>
